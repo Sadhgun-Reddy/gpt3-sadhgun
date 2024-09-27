@@ -18,6 +18,7 @@ const Navbar = () => {
           <p><a href="#blog">Library</a></p>
         </div>
       </div>
+      
     </div>
   )
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 2rem 6rem;
 }
 
@@ -19,4 +20,29 @@
 .gpt3__navbar-links_logo img{
     width: 62.56px;
     height:16.02px;
+}
+
+.gpt3__navbar-links_container{
+    display: flex;
+    justify-content: row;
+}
+
+.gpt3__navbar-sign{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.gpt3__navbar-links_container p,
+.gpt__navbar-sign p,
+.gpt3__navbar-menu_container p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
 }
